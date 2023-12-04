@@ -7,7 +7,31 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <main>
+        <div class="up-side">
+            <div class="info">
+                <h1>Register</h1>
+                <form method="POST">
+                    <label>
+                        Username <br>
+                        <input type="text" name="username" data-rules="required|min=2">
+                    </label>
+                    <label>
+                        E-mail <br>
+                        <input type="text" name="email" data-rules="required|email">
+                    </label>
+                    <label>
+                        Password <br>
+                        <input type="password" name="password" data-rules="required|min=2">
+                    </label>
+                </form>
+            </div>
+        </div>
+        <div class="bottom-side">
+            <a href="https://github.com/JoaoNaif" target="_blank">@JoaoNaif-2023</a>
+            <span>Inspirado nas aulas B7web</span>
+        </div>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
