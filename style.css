@@ -82,3 +82,41 @@ input{
     border-radius: 5px;
     margin-bottom: 10px;
 }
+
+.pos{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pos h1{
+    font-size: 40px;
+    animation: cor 1s ease-in both;
+    animation-delay: 1s;
+}
+
+.pos h4{
+    font-size: 20px;
+}
+
+.social{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.social i{
+    font-size: 30px;
+    color: #fff;
+}
+
+@keyframes cor{
+    0%{
+        color: #fff;
+    }50%{
+        color: aquamarine;
+    }100%{
+        color: rgb(11, 216, 4);
+    }
+}

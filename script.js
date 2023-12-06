@@ -16,7 +16,13 @@ let validator = {
         }
 
         if(send){
-            form.style.display = 'none'
+            let info = document.querySelector('.info')
+            info.style.display = 'none'
+            document.querySelector('.pos').style.opacity = 0
+            document.querySelector('.pos').style.display = 'flex'
+            setTimeout(() => {
+               document.querySelector('.pos').style.opacity = 1 
+            }, 200);
         }
     },
     checkList: (input) =>{
